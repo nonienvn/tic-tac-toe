@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family:Poppins;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.board{
+  text-align:center;
+  margin:auto;
+}
+
+.board-row{
+  display:flex;
+  justify-content: center;
+}
+
+.btn{
+  height:120px;
+  width:120px;
+  font-size: 50px;
+  background-color: grey;
+  margin : 5px;
+  color: lavender;
+}
+
+.btn:focus {
+  background-color: darkslategray;
+}
+
+.App{
+  width:80%;
+  margin:auto;
+}
+
+.header{
+  text-align:center;
+  font-size:40px;
+  text-shadow: 2px 2px 4px #bbb;
+}
+
+.hide{
+  display:none;
+};
